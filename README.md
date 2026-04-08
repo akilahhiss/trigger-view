@@ -67,6 +67,7 @@ SET NEW.total_harga = NEW.jumlah *
 ```
 
 ---
+<img width="300" height="250" alt="Before_Insert" src="https://github.com/user-attachments/assets/6f9c0da5-2c2a-4b01-949d-0806a83be17a" />
 
 ### 🔹 AFTER INSERT
 Mencatat log setelah transaksi ditambahkan.
@@ -80,6 +81,7 @@ VALUES (CONCAT('Transaksi ditambahkan oleh ', NEW.nama_pembeli));
 ```
 
 ---
+<img width="300" height="250" alt="after" src="https://github.com/user-attachments/assets/3e9c05ae-01ae-4ef5-9c87-8c22b031dd51" />
 
 ### 🔹 BEFORE UPDATE
 Validasi agar jumlah tidak kurang dari 1.
@@ -92,6 +94,7 @@ SET NEW.jumlah = IF(NEW.jumlah < 1, 1, NEW.jumlah);
 ```
 
 ---
+<img width="300" height="250" alt="bu" src="https://github.com/user-attachments/assets/77743699-79a8-4773-888b-a87e079c389f" />
 
 ### 🔹 AFTER UPDATE
 Mencatat log setelah update transaksi.
@@ -105,6 +108,7 @@ VALUES (CONCAT('Transaksi diupdate oleh ', NEW.nama_pembeli));
 ```
 
 ---
+<img width="300" height="250" alt="au" src="https://github.com/user-attachments/assets/b22f02a2-e6c2-4971-a032-8de465e89e51" />
 
 ### 🔹 BEFORE DELETE
 Mencatat log sebelum data dihapus.
@@ -118,6 +122,7 @@ VALUES (CONCAT('Akan menghapus transaksi ID ', OLD.id_transaksi));
 ```
 
 ---
+<img width="300" height="250" alt="bd" src="https://github.com/user-attachments/assets/38e8ea6c-1852-463e-85b8-349d222ee7d8" />
 
 ### 🔹 AFTER DELETE
 Mencatat log setelah data berhasil dihapus.
@@ -131,6 +136,7 @@ VALUES (CONCAT('Transaksi berhasil dihapus ID ', OLD.id_transaksi));
 ```
 
 ---
+<img width="300" height="250" alt="bd" src="https://github.com/user-attachments/assets/4ef4619c-5f50-4e9a-9c2f-af56a2651301" />
 
 ## 📥 4. Data Dummy
 
@@ -188,6 +194,7 @@ SELECT * FROM view_produk_murah;
 ```
 
 ---
+<img width="300" height="250" alt="View_Produk_Murah" src="https://github.com/user-attachments/assets/5667acef-4730-4468-9043-4e6f9f182a1b" />
 
 ## ✅ Kesimpulan
 - Database terdiri dari **3 tabel utama**: produk, transaksi, dan log_transaksi
