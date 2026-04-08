@@ -169,8 +169,9 @@ WHERE harga > 3000000;
 ```sql
 SELECT * FROM view_produk_mahal;
 ```
-<img width="200" height="100" alt="View_Produk_Mahal" src="https://github.com/user-attachments/assets/8b6b03b0-9daa-48fa-84c6-d44e57e21ab7" />
+
 ---
+<img width="300" height="250" alt="View_Produk_Mahal" src="https://github.com/user-attachments/assets/8b6b03b0-9daa-48fa-84c6-d44e57e21ab7" />
 
 ### 🔸 Produk Murah
 Menampilkan produk dengan harga ≤ 3.000.000
