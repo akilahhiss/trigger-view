@@ -1,5 +1,4 @@
 [README1.md](https://github.com/user-attachments/files/26564902/README1.md)
-[README1.md](https://github.com/user-attachments/files/26564902/README1.md)
 # 📦 Dokumentasi Database: Toko Elektronik
 
 ## 🗂️ 1. Membuat Database
@@ -136,7 +135,7 @@ VALUES (CONCAT('Transaksi berhasil dihapus ID ', OLD.id_transaksi));
 ```
 
 ---
-<img width="300" height="250" alt="bd" src="https://github.com/user-attachments/assets/4ef4619c-5f50-4e9a-9c2f-af56a2651301" />
+<img width="300" height="250" alt="ad" src="https://github.com/user-attachments/assets/4ef4619c-5f50-4e9a-9c2f-af56a2651301" />
 
 ## 📥 4. Data Dummy
 
