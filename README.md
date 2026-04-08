@@ -135,7 +135,8 @@ VALUES (CONCAT('Transaksi berhasil dihapus ID ', OLD.id_transaksi));
 ```
 
 ---
-<img width="300" height="250" alt="ad" src="https://github.com/user-attachments/assets/4ef4619c-5f50-4e9a-9c2f-af56a2651301" />
+<img width="300" height="250" alt="del aft" src="https://github.com/user-attachments/assets/bb44c7b7-b2d5-4799-b00c-320c793c8817" />
+
 
 ## 📥 4. Data Dummy
 
