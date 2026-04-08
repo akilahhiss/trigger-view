@@ -1,5 +1,4 @@
 [README1.md](https://github.com/user-attachments/files/26564902/README1.md)
-<img width="457" height="260" alt="View_Produk_Mahal" src="https://github.com/user-attachments/assets/8b6b03b0-9daa-48fa-84c6-d44e57e21ab7" />
 [README1.md](https://github.com/user-attachments/files/26564902/README1.md)
 # 📦 Dokumentasi Database: Toko Elektronik
 
@@ -170,7 +169,7 @@ WHERE harga > 3000000;
 ```sql
 SELECT * FROM view_produk_mahal;
 ```
-
+<img width="200" height="100" alt="View_Produk_Mahal" src="https://github.com/user-attachments/assets/8b6b03b0-9daa-48fa-84c6-d44e57e21ab7" />
 ---
 
 ### 🔸 Produk Murah
